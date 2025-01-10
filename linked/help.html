@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Help Center</title>
+    <style>
+        *{
+            margin: 0;;
+            padding: 0;
+        }
+        body{
+            height: 100%;
+            width: 100%;
+        }
+        .container{
+            height: 100vh;
+            width: 100vw;
+            
+        }
+        .upperdiv{
+            height:335px;
+            width: 100%;
+        }
+        .upperdiv img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+        .selfserv{
+            height: 260px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .selfheader{
+            height: 56px;
+            width: 100%;
+            font-size: 20px;
+            color: #222222;
+            margin-top: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .iconself{
+           flex: 1;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 0 70px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            background-color: white;
+        }
+        .rowself{
+            height: 80px;
+            width: 100%;
+            display: flex;
+            gap: 60px;
+            justify-content: space-evenly;
+        }
+        .box{
+           flex: 1;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content:center ;
+            gap: 5px;
+
+        }
+        .boxicon{
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+        }
+        .boxicon i{
+            color: orangered;
+            font-size: 30px;
+        }
+        .boxtext{
+            height: 20px;
+            width: 100%;
+            text-align: center;
+        }
+        .circle
+        {
+            height: 48px;
+            width: 48px;
+            border-radius: 50%;
+            background-color: whitesmoke;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="upperdiv">
+            <img src="../images/dkqer9237dn.png" alt="">
+        </div>
+        <div class="selfserv">
+            <div class="selfheader">Self Service Tools</div>
+            <div class="iconself">
+                <div class="rowself">
+                    <div class="box">
+                        <div class="circle">
+                        <div class="boxicon"><i class="fa-solid fa-cart-shopping"></i></div>
+                    </div>
+                        <div class="boxtext">My Orders</div>
+                    </div>
+                    <div class="box">
+                        <div class="circle">
+                        <div class="boxicon"><i class="fa-solid fa-lock"></i></div></div>
+                        <div class="boxtext">Reset Password</div>
+                    </div>
+                    <div class="box">
+                        <div class="circle">
+                        <div class="boxicon"><i class="fa-regular fa-credit-card"></i></div></div>
+                        <div class="boxtext">My Payment Options</div>
+                    </div>
+                    <div class="box">
+                        <div class="circle">
+                        <div class="boxicon"><i class="fa-solid fa-circle-user"></i></div></div>
+                        <div class="boxtext">My Profile</div>
+                    </div>
+                </div>
+                <div class="rowself">
+                    <div class="box">
+                        <div class="circle">
+                        <div class="boxicon"><i class="fa-solid fa-money-bill"></i></div></div>
+                        <div class="boxtext">My Vouchers</div>
+                    </div>
+                    <div class="box">
+                        <div class="circle">
+                        <div class="boxicon"><i class="fa-solid fa-money-bill-transfer"></i></div></div>
+                        <div class="boxtext">My Returns</div>
+                    </div>
+                    <div class="box">
+                        <div class="circle">
+                        <div class="boxicon"><i class="fa-regular fa-address-book"></i></div></div>
+                        <div class="boxtext">Address Book</div>
+                    </div>
+                    <div class="box">
+                        <div class="circle">
+                        <div class="boxicon"><i class="fa-solid fa-ban"></i></div></div>
+                        <div class="boxtext">My Cancellations</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

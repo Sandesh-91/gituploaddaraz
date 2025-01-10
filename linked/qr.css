@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qrarea{
+
+    background: linear-gradient(90deg, #fff, hsla(0, 0%, 100%, 0)), linear-gradient(179.27deg, #ffedd6 .83%, #ffc3e3 46.78%, #fff 99.57%), linear-gradient(0deg, #fff, #fff);
+ 
+    width: 194px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    gap: 10px;
+}
+.download{
+    height: 42px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoonly{
+    height: 42px;
+    width: 42px;
+
+}
+.logoonly img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.logodivv{
+    height: 158px;
+    width: 182px;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    background-image: url(https://img.lazcdn.com/g/tps/imgextra/i2/O1CN01tceZus1IewufOY1tZ_!!6000000000919-2-tps-364-316.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: white;
+    font-weight: bold;
+}
+.rating{
+    height: 14px;
+    width: 100%;
+    font-weight: bold;
+}
+.downloadapp{
+    height: 30px;
+    width: 95px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+.icnonly{
+    display: flex;
+    height: 14px;
+    width: 100%;
+
+}
+.star{
+    height: 10px;
+    width: 10px;
+}
+.ratingtext{
+    height: 14px;
+    width: 60px;
+    font-size: 11px;
+    white-space: nowrap;
+    font-weight: bold;
+}
+.logoicn{
+    height: 158px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logowrapper{
+    height: 60px;
+    width: 80px;
+    text-align: center;
+
+}
+.btm{
+    height: 108px;
+    width: 100%;
+    display: flex;
+    flex-direction:column ;
+    gap: 7px;   
+}
+.delivery{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    line-height:17px;
+}
+.row2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 7px;
+    box-sizing: border-box;
+}
+.row1{
+    height: 90px;
+   width: 50%;
+}
+.row2{
+    height: 90px;
+   width: 50%;
+   display: flex;
+   justify-content: center;
+}
+.rowwrapper{
+    display: flex;
+    height: 90px;
+    width: 100%;
+}
+.appstore{
+    height: 24px;
+    width: 100%;
+    font-size: 12px;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius:7px ;
+}
+.qrshow img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.text{
+    height: 30px;
+    width: 100%;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
